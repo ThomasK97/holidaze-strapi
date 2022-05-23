@@ -4,7 +4,8 @@
   "info": {
     "singularName": "booking",
     "pluralName": "bookings",
-    "displayName": "booking"
+    "displayName": "booking",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +15,11 @@
     "name": {
       "type": "string"
     },
-    "message": {
-      "type": "richtext"
+    "date": {
+      "type": "date"
+    },
+    "price": {
+      "type": "biginteger"
     }
   }
 }

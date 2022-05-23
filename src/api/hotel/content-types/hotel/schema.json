@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hotel",
     "pluralName": "hotels",
-    "displayName": "hotel"
+    "displayName": "hotel",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,13 @@
       "type": "string"
     },
     "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "richtext"
+    },
+    "price": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
