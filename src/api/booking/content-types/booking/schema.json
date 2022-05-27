@@ -20,6 +20,9 @@
     },
     "price": {
       "type": "biginteger"
+    },
+    "checkout": {
+      "type": "date"
     }
   }
 }
