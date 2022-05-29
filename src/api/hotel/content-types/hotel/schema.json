@@ -26,6 +26,18 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "imagetwo": {
+      "type": "richtext"
+    },
+    "imagethree": {
+      "type": "richtext"
+    },
+    "imagefour": {
+      "type": "richtext"
+    },
+    "imagefive": {
+      "type": "richtext"
     }
   }
 }
